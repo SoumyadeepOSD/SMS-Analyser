@@ -2,6 +2,7 @@ from typing import Union,List
 from fastapi import FastAPI
 import utils.processing as imp
 from pydantic import BaseModel
+import uvicorn
 
 app = FastAPI()
 

@@ -11,7 +11,6 @@ client = Groq(
     api_key=API_KEY,
 )
 
-
 def sentiment_analysis(messages:List):
     result_list = []
     sid = SentimentIntensityAnalyzer()
